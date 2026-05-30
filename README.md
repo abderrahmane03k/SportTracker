@@ -33,29 +33,31 @@ SportTracker est un système complet combinant un bracelet biomédical connecté
 
 ## 📁 Structure du projet
 
+```
 SportTracker/
-├── App.js # Point d'entrée
+├── App.js                        # Point d'entrée
 ├── src/
-│ ├── screens/ # 6 écrans
-│ │ ├── HomeScreen.jsx # Dashboard capteurs
-│ │ ├── PostureScreen.jsx # Analyse IA MediaPipe
-│ │ ├── NutritionScreen.jsx # Suivi alimentaire
-│ │ ├── BraceletScreen.jsx # Statut bracelet
-│ │ ├── ChatScreen.jsx # FitBot IA
-│ │ ├── ProfileScreen.jsx # Profil utilisateur
-│ │ ├── LoginScreen.jsx # Authentification
-│ │ └── OnboardingScreen.jsx # Configuration profil
-│ ├── context/
-│ │ └── SensorContext.js # État global capteurs
-│ ├── services/
-│ │ ├── firebaseService.js # Firebase config
-│ │ └── authService.js # Auth Firebase
-│ ├── navigation/
-│ │ └── AppNavigator.jsx # Navigation onglets
-│ └── theme/
-│ └── colors.js # Palette couleurs
-├── app.json # Config Expo
-└── eas.json # Config EAS Build
+│   ├── screens/                  # 6 écrans
+│   │   ├── HomeScreen.jsx        # Dashboard capteurs
+│   │   ├── PostureScreen.jsx     # Analyse IA MediaPipe
+│   │   ├── NutritionScreen.jsx   # Suivi alimentaire
+│   │   ├── BraceletScreen.jsx    # Statut bracelet
+│   │   ├── ChatScreen.jsx        # FitBot IA
+│   │   ├── ProfileScreen.jsx     # Profil utilisateur
+│   │   ├── LoginScreen.jsx       # Authentification
+│   │   └── OnboardingScreen.jsx  # Configuration profil
+│   ├── context/
+│   │   └── SensorContext.js      # État global capteurs
+│   ├── services/
+│   │   ├── firebaseService.js    # Firebase config
+│   │   └── authService.js        # Auth Firebase
+│   ├── navigation/
+│   │   └── AppNavigator.jsx      # Navigation onglets
+│   └── theme/
+│       └── colors.js             # Palette couleurs
+├── app.json                      # Config Expo
+└── eas.json                      # Config EAS Build
+```
 
 ## 🚀 Installation et démarrage
 
